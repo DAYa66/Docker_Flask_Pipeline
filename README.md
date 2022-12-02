@@ -10,11 +10,11 @@ ML: sklearn, pandas, numpy, Catboost  API: flask
 
 Используемые признаки:
 
-Total_Trans_Amt
-Total_Trans_Ct
-Total_Relationship_Count
-Total_Amt_Chng_Q4_Q1
-Months_Inactive_12_mon
+Total_Trans_Amt, 
+Total_Trans_Ct, 
+Total_Relationship_Count, 
+Total_Amt_Chng_Q4_Q1, 
+Months_Inactive_12_mon, 
 Total_Revolving_Bal 
 
 Внутри пайплайна модели Churning_pipeline.dill генерируется еще 4 признака.
